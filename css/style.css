@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: #d0e2be;
+    color: white;
+}
+
+#wide {
+    margin: 0% 25%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+#contents {
+    border: solid 10px;
+    background-color: #7fa76d;
+    padding: 10px;
+}
