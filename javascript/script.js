@@ -11,14 +11,12 @@ const hour = new Date().getHours();
 
 if (hour >= 6 && hour < 9) {
     timemessage = ('おはようございます');
-} else if (hour >= 9 && hour < 16) {
+} else if (hour >= 9 && hour < 18) {
     timemessage = ('こんにちは');
-} else if (hour >= 16) {
+} else if (hour >= 18) {
     timemessage = ('こんばんは');
 } else if (hour >= 0 && hour < 6) {
     timemessage = ('こんばんは');
-    document.getElementById("greeting").innerHTML = timemessage;
-
     const pasword = ('夜分遅くに失礼しますわよっ');
     let pasmessage;
     const rep = window.prompt('夜分遅くに失礼しますわよっ');
@@ -28,3 +26,4 @@ if (hour >= 6 && hour < 9) {
     }
     window.alert(pasmessage);
 }
+document.getElementById("greeting").innerHTML = timemessage;
