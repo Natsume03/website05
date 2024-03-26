@@ -6,7 +6,7 @@ body {
 }
 
 #wide {
-    margin: 0% 25%;
+    margin: 0% 20%;
 }
 
 h1 {
@@ -37,7 +37,7 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 article {
@@ -50,4 +50,9 @@ article {
 .flexbox {
     display: flex;
     justify-content: space-between;
+}
+
+.redspan {
+    color: red;
+    font-weight: bold;
 }
