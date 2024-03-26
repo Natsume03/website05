@@ -17,7 +17,7 @@ if (hour >= 6 && hour < 9) {
     timemessage = ('こんばんは');
 } else if (hour >= 0 && hour < 6) {
     timemessage = ('こんばんは');
-    const pasword = ('夜分遅くに失礼しますわよっ');
+    const pasword = ('こんばんは');
     let pasmessage;
     const rep = window.prompt('こんばんは');
     if (pasword === rep) {
