@@ -60,3 +60,7 @@ article {
 #genshinpic {
     width: 50%;
 }
+
+#flexbox {
+    display: flex;
+}
