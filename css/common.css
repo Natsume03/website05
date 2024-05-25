@@ -61,6 +61,10 @@ article {
     width: 50%;
 }
 
-#flexbox {
+#genshinimg {
     display: flex;
+}
+
+#miceimg {
+    width: 30%;
 }
