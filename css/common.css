@@ -68,3 +68,14 @@ article {
 #miceimg {
     width: 30%;
 }
+.globalURL {
+    color: blue;
+    text-decoration: underline;
+}
+.globalURL:hover {
+    color:purple;
+    text-decoration: none;
+}
+iframe{
+    background-color: #7fa76d;
+}
