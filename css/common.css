@@ -57,13 +57,14 @@ article {
     font-weight: bold;
 }
 
-#genshinpic {
+.genshinimg{
+    display:flex;
+}
+
+.genshinpic {
     width: 50%;
 }
 
-#genshinimg {
-    display: flex;
-}
 
 #miceimg {
     width: 30%;
